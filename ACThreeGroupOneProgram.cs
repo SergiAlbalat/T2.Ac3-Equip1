@@ -20,7 +20,6 @@ namespace Grup1{
             }
         }
 
-
         public static void Main(){
             const string PJSELECT = "Select your character (1-4):";
             const string NAMESELECT = "Select your name:";
