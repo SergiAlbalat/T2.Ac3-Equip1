@@ -23,7 +23,6 @@ namespace Grup1
                 }
                 else if (nameChar[i] == 'O')
                 {
-
                     vocal = vocal + 1;
                 }
                 else if (nameChar[i] == 'U')
