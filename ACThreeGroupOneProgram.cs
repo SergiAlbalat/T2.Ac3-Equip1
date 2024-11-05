@@ -34,17 +34,17 @@ namespace Grup1{
             do{
                 Console.WriteLine(PJSELECT);
                 numberpj = int.Parse(Console.ReadLine());
-            }while(numberpj > 4 || numberpj < 1);
+            }while(numberpj > 4 || numberpj < 1); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
 
             do{
                 Console.WriteLine(NAMESELECT);
                 namepj=Console.ReadLine();
-            }while (nameselect(namepj) > 25 || nameselect(namepj) < 2);
+            }while (nameselect(namepj) > 25 || nameselect(namepj) < 2); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
 
             do{
                 Console.WriteLine(PJMALDADSELECT);
                 maldadpj = int.Parse(Console.ReadLine());
-            }while(maldad > 50000 || maldad < 1000);
+            }while(maldad > 50000 || maldad < 1000); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
             vocales(vocal,ref fuerzasuper4, ref maldad);
         }
     }
