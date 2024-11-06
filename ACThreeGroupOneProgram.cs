@@ -1,4 +1,5 @@
 using System;
+using LibraryT2AC3;
 namespace Grup1
 {
     public class Super4
@@ -9,7 +10,7 @@ namespace Grup1
             char[] nameChar = namepj.ToCharArray();
             for (i = 0; i < namepj.Length; i++)
             {
-                if (nameChar[i] == 'A' )
+                if (nameChar[i] == 'A')
                 {
                     vocal = vocal + 1;
                 }
@@ -50,10 +51,10 @@ namespace Grup1
                     vocal = vocal + 1;
                 }
             }
-            return i;
+            return vocal;
         }
 
-        static void vocales(int vocal, ref double fuerzasuper4, ref int maldadpj)
+        public static void vocales(int vocal, ref double fuerzasuper4, ref int maldadpj)
         {
             if (vocal >= 2)
             {
@@ -65,7 +66,6 @@ namespace Grup1
                 fuerzasuper4 = maldadpj * 0.05; // Fuerza basada en el 5% de maldad
             }
         }
-
         public static void Main()
         {
             const string PJSELECT = "Select your character (1-4):";
@@ -88,14 +88,14 @@ namespace Grup1
             {
                 Console.WriteLine(NAMESELECT);
                 namepj = Console.ReadLine();
-            } while (NameSelect(namepj, ref vocal) > 25 || NameSelect(namepj, ref vocal) < 2); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
+            } while (Library.NameSelect(namepj, ref vocal) > 25 || Library.NameSelect(namepj, ref vocal) < 2); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
 
             do
             {
                 Console.WriteLine(PJMALDADSELECT);
                 maldadpj = int.Parse(Console.ReadLine());
             } while (maldadpj > 50000 || maldadpj < 1000); //error arreglat en la condicio del while en el que la segona condicio del or no estaba ben especificada
-            vocales(vocal, ref fuerzasuper4, ref maldadpj);
+            Library.vocales(vocal, ref fuerzasuper4, ref maldadpj);
         }
     }
 }
