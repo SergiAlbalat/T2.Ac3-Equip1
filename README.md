@@ -148,3 +148,12 @@ namespace TestT2AC3
 }
 ```
 **Observacions:**
+### Prova de Caixa Blanca
+
+![IMGBucle](./IMG/Bucle.png)
+
+Comença a fer un Bucle.
+
+![IMGERROR](./IMG/ERRORS.png)
+
+Aqui estan els errors del ide.
