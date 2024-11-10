@@ -8,7 +8,7 @@
 ## Link al disseny de proves
 [Disseny de proves](https://docs.google.com/spreadsheets/d/1JZWPXwHSRo2cosmTPfD6TAL_5auWIHaDZF-WjrjSvyY/edit?usp=sharing)
 
-# Rúbrica Avaluació grup 1 [GitHub Grup avaluat](https://github.com/Angel-Flores003/T2.AC3.-Funcions-i-llibreries)
+# Rúbrica Avaluació grup 1 
 ## Pseudocodi
 | Criteri | 2 | 1 | 0 | Puntuació |
 | ------ | ------ | ------ | ------ | ------ |
